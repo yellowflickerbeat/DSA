@@ -1,0 +1,18 @@
+Unit I
+
+Classes and Objects: Introduction to OOPS, Objects as Data types, Constructors,
+Destructors.
+Operator Overloading & Friend Functions: Overloading of Unary Operators, Binary
+Operators, Friend Functions
+
+
+Types of Data Structures: https://www.youtube.com/watch?v=T9DSBhBR_I4&ab_channel=NesoAcademy
+
+Procedure vs Object Oriented Programming: 
+https://www.youtube.com/watch?v=wDX5vxyqq-8&list=PLdo5W4Nhv31YU5Wx1dopka58teWP9aCee&index=8
+
+Inline Functions:
+https://www.geeksforgeeks.org/inline-functions-cpp/
+
+Understanding "Friend Functions":
+https://www.youtube.com/watch?v=HqnVgvBR4pA&ab_channel=SimpleSnippets
