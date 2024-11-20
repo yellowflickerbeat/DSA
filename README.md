@@ -1,3 +1,1 @@
-# DSA_cpp
-This repo will contain the resources I come across for this subject
-Studied in sem 3.
+This repo will contain the resources used to study MSRIT's DSA in C++ and IITM's Python DSA.
