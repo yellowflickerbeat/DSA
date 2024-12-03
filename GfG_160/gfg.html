@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,6 +22,22 @@
         I was trying to sort it and then removed duplictes both of which was not working.<br>
         Instead it is easier to assign values.
         </p>
+
+        <h3>2. Move Zeroes to the end
+            <p>I tried to move the zeroes to a separate array while preserving the order.
+                But the fuck, code was not working w/o initializing count.
+                So:
+                <i>if array[i] != 0:
+                    arr[i], arr[count] = arr[count], arr[i]
+                    count += 1
+                </i>
+
+                if the data element is not equal to zero then it is exchanged with intial count
+                lets say there is the third zero at i=2, nothing happens
+                but next non zero element is exchanged with last zero 
+                as count is being incremented the order of zeroes are preserved
+            </p>
+        </h3>
     </div>
     
 </body>
