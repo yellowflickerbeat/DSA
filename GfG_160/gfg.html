@@ -23,21 +23,30 @@
         Instead it is easier to assign values.
         </p>
 
-        <h3>2. Move Zeroes to the end
+        <h3>2. Move Zeroes to the end </h3>
             <p>I tried to move the zeroes to a separate array while preserving the order.
                 But the fuck, code was not working w/o initializing count.
                 So:
-                <i>if array[i] != 0:
+                <p id="lesson">if array[i] != 0:
                     arr[i], arr[count] = arr[count], arr[i]
                     count += 1
-                </i>
+                </p>
 
-                if the data element is not equal to zero then it is exchanged with intial count
-                lets say there is the third zero at i=2, nothing happens
-                but next non zero element is exchanged with last zero 
-                as count is being incremented the order of zeroes are preserved
+                if the data element is not equal to zero then it is exchanged with intial count<br>
+                lets say there is the third zero at i=2, nothing happens<br>
+                but next non zero element is exchanged with last zero<br>
+                as count is being incremented the order of zeroes are preserved<br>
             </p>
-        </h3>
+
+        <h3>3. Next Lexigraphical Permutation</h3>
+        <p id="lesson">Lexigraphical order:<br>
+        First compare array elements from behind. If arr[i]< arr[i-1]<br>
+        swap arr[i] with numerically smallest number in arr[i]'s right<br>
+        Now reverse right of arr[i]</p>
+
+        <p>First thought of swapping and using only i, then chatgpt happened</p>
+    </p>
+
     </div>
     
 </body>
